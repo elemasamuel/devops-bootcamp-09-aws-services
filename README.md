@@ -131,6 +131,9 @@ Open the AWS web console, go to "EC2 Dashboard" > "Instances" and check the 'web
 Now open a terminal on your local machine and ssh into the EC2 server as 'ec2-user':\
 `ssh -i ~/.ssh/docker-server.pem ec2-user@<public-ip-address>`.
 
+To check your ip address:
+curl https://checkip.amazonaws.com
+
 ### Install Docker on EC2
 Execute the following commands on the EC2 terminal:
 ```sh
